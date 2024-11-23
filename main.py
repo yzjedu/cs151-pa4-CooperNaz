@@ -156,7 +156,7 @@ def action_menu():
 # Return: None
 def main():
     print("-" * 50)
-    print("This program is meant to analyze headlines from the Australian Broadcasting System from given files. \n")
+    print("This program is meant to analyze headlines from the Australian Broadcasting System from given files.")
     action_menu()
     print("\nThank you for using the program.")
 
