@@ -159,3 +159,5 @@ def main():
     print("This program is meant to analyze headlines from the Australian Broadcasting System from given files. \n")
     action_menu()
     print("\nThank you for using the program.")
+
+main()
