@@ -28,10 +28,9 @@ def num_headlines_with_word():
     file_name = verify_file()
     try:
         data_file = open(file_name, "r")
-        file_data = data_file.read()
         data_file.close()
-        for line in file_data:
-            if word in line:
+        for line in data_file:
+            if word in line.strip().split():
                 headline_count += 1
         print("-" * 50)
         print(f"Number of headlines containing the word '{word}': {headline_count}")
